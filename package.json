@@ -1,0 +1,8 @@
+{
+  "name": "reward-system-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "vercel-build": "cd build && npm install && NODE_OPTIONS=--openssl-legacy-provider npm run build"
+  }
+}
