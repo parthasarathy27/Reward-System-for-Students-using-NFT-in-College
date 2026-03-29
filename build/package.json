@@ -4,7 +4,7 @@
   "private": true,
   "author": "Devs Only",
   "engines": {
-    "node": "14 || 15 || 16",
+    "node": ">=14",
     "npm": ">=6"
   },
   "dependencies": {
