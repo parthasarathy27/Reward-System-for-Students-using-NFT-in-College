@@ -1,4 +1,6 @@
 name: Mirror to Gitopia
+permissions:
+  contents: read
 
 on:
   push:
