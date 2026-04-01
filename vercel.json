@@ -1,5 +1,10 @@
 {
   "outputDirectory": "build",
+  "build": {
+    "env": {
+      "NODE_OPTIONS": "--openssl-legacy-provider"
+    }
+  },
   "rewrites": [
     {
       "source": "/(.*)",
