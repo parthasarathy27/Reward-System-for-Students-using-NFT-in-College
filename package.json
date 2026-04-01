@@ -4,7 +4,7 @@
   "private": true,
   "author": "Devs Only",
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   },
   "dependencies": {
     "@airgap/beacon-sdk": "^3.1.3",
