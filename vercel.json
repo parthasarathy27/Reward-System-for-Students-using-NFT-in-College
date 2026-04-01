@@ -1,14 +1,5 @@
 {
-  "buildCommand": "cd frontend && npm install --legacy-peer-deps && npm run build",
-  "outputDirectory": "frontend/build",
-  "framework": null,
-  "build": {
-    "env": {
-      "NODE_VERSION": "16",
-      "NODE_OPTIONS": "--openssl-legacy-provider",
-      "CI": "false"
-    }
-  },
+  "outputDirectory": "build",
   "rewrites": [
     {
       "source": "/(.*)",
