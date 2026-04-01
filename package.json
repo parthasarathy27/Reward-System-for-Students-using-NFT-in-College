@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "start": "cd app && npm start",
     "build": "cd app && npm install --legacy-peer-deps && CI=false NODE_OPTIONS=--openssl-legacy-provider npm run build && cd .. && rm -rf build && mv app/build build"
   }
 }
